@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Time Diary</title>
+    <link rel="stylesheet" href="uplode.css">
+</head>
+<body>
+    <h1 class="title">Dark Time Diary</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="uplode.html">Uplode</a>
+        <a href="">Work</a>
+    </nav>
+    <div class="container">
+        <h1 class="img-title">Image Upload Page</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <label for="file-input" class="file-label">Choose an image:</label><br>
+            <input type="file" id="file-input" name="image" accept="image/*" required><br>
+            <button type="submit" class="upload-btn">Upload Image</button>
+        </form>
+        <div id="preview-container"></div>
+    </div>
+
+    <script src="uplode.js"></script>
+</body>
+</html>
